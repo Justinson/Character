@@ -5,6 +5,8 @@
  */
 package character;
 
+import environment.ApplicationStarter;
+
 /**
  *
  * @author Justinson
@@ -16,6 +18,7 @@ public class Character {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        ApplicationStarter.run("Panda", new CharacterEnvironment());
     }
     
 }
