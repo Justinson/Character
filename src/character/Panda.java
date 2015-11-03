@@ -63,11 +63,13 @@ public class Panda {
         //legs(black)
         graphics.fillRoundRect(getX() + (width * 55 / 100), getY() + (getHeight() * 160 / 100), getWidth() * 15 / 100, getHeight() * 50 / 100, getWidth() * 90 / 100, getHeight() * 90 / 100);
         graphics.fillRoundRect(getX() + (width * 30 / 100), getY() + (getHeight() * 160 / 100), getWidth() * 15 / 100, getHeight() * 50 / 100, getWidth() * 90 / 100, getHeight() * 90 / 100);
-        //lightsaber(grey/green)
+        //lightsaber(cyan/gray)
         graphics.setColor(Color.cyan);
         graphics.fillRect(getX() + (width * -25 / 100), getY() + (getHeight() * 0 / 100), getWidth() * 6 / 100, getHeight() * 125 / 100);
         graphics.setColor(Color.GRAY);
         graphics.fillRect(getX() + (width * -25 / 100), getY() + (getHeight() * 100 / 100), getWidth() * 6 / 100, getHeight() * 25 / 100);       
+        graphics.fillRoundRect(getX() + (width * -53 / 200), getY() + (getHeight() * 95 / 100), getWidth() * 9 / 100, getHeight() * 7 / 100, getWidth() * 5 / 100, getHeight() * 3 / 100);
+        graphics.fillRoundRect(getX() + (width * -53 / 200), getY() + (getHeight() * 120 / 100), getWidth() * 9 / 100, getHeight() * 7 / 100, getWidth() * 5 / 100, getHeight() * 3 / 100);
         //hand(black)
         graphics.setColor(Color.black);
         graphics.fillOval(getX() + (width * -25 / 100), getY() + (getHeight() * 110 / 100), getWidth() * 10 / 100, getHeight() * 10 / 100); 
@@ -78,9 +80,14 @@ public class Panda {
         //mouth(black)
         graphics.setColor(Color.black);
         graphics.drawOval(getX() + (width * 43 / 100), getY() + (getHeight() * 81 / 100), getWidth() * 7 / 100, getHeight() * 10 / 100);
-
-        
-//
+        //right foot(black/white)
+        graphics.setColor(Color.black);
+        graphics.fillOval(getX() + (width * 50 / 100), getY() + (getHeight() * 202 / 100), getWidth() * 15 / 100, getHeight() * 10 / 100);
+        graphics.setColor(Color.white);
+        //left foot(black/white)   
+        graphics.fillOval(getX() + (width * 25 / 100), getY() + (getHeight() * 202 / 100), getWidth() * 15 / 100, getHeight() * 10 / 100);
+        graphics.setColor(Color.white);
+      
 //          graphics.drawRect(x, y, width, height);
 //          int[] x5 = new int[3];
 //          x5[0] = x + (width / 2);
