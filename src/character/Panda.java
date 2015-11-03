@@ -39,7 +39,7 @@ public class Panda {
         graphics.setColor(Color.black);
         graphics.fillOval(getX() + (width * 30 / 100), getY() + (getHeight() * 55 / 100), getWidth() * 15 / 100, getHeight() * 20 / 100);
         graphics.fillOval(getX() + (width * 50 / 100), getY() + (getHeight() * 55 / 100), getWidth() * 15 / 100, getHeight() * 20 / 100);
-//        //eyes(white) 
+//      //eyes(white)
         graphics.setColor(Color.white);
         graphics.fillOval(getX() + (width * 50 / 100), getY() + (getHeight() * 62 / 100), getWidth() * 5 / 100, getHeight() * 10 / 100);
         graphics.fillOval(getX() + (width * 30 / 100), getY() + (getHeight() * 62 / 100), getWidth() * 5 / 100, getHeight() * 10 / 100);
@@ -50,15 +50,36 @@ public class Panda {
         graphics.setColor(Color.black);
         graphics.fillOval(getX() + (width * 18 / 100), getY() + (getHeight() * 35 / 100), getWidth() * 15 / 100, getHeight() * 20 / 100);
         graphics.fillOval(getX() + (width * 60 / 100), getY() + (getHeight() * 35 / 100), getWidth() * 15 / 100, getHeight() * 20 / 100);
-        //nose(black)     
+        //nose(black)             
         graphics.fillOval(getX() + (width * 42 / 100), getY() + (getHeight() * 77 / 100), getWidth() * 10 / 100, getHeight() * 5 / 100);        
+        //nose(white)
+        graphics.setColor(Color.white);
+        graphics.fillOval(getX() + (width * 43 / 100), getY() + (getHeight() * 80 / 100), getWidth() * 3 / 100, getHeight() * 3 / 100);        
+        graphics.fillOval(getX() + (width * 48 / 100), getY() + (getHeight() * 80 / 100), getWidth() * 3 / 100, getHeight() * 3 / 100);        
         //arms(black)
-        graphics.fillRoundRect(getX() + (width * 20 / 100), getY() + (getHeight() * 110 / 100), getWidth() * 10 / 100, getHeight() * 50 / 100, getWidth() * 90 / 100, getHeight() * 90 / 100);
+        graphics.setColor(Color.black);
+        graphics.fillRoundRect(getX() + (width * -20 / 100), getY() + (getHeight() * 110 / 100), getWidth() * 50 / 100, getHeight() * 10 / 100, getWidth() * 90 / 100, getHeight() * 90 / 100);
         graphics.fillRoundRect(getX() + (width * 70 / 100), getY() + (getHeight() * 110 / 100), getWidth() * 10 / 100, getHeight() * 50 / 100, getWidth() * 90 / 100, getHeight() * 90 / 100);
         //legs(black)
-        graphics.fillRoundRect(getX() + (width * 70 / 100), getY() + (getHeight() * 200 / 100), getWidth() * 10 / 100, getHeight() * 50 / 100, getWidth() * 90 / 100, getHeight() * 90 / 100);
+        graphics.fillRoundRect(getX() + (width * 55 / 100), getY() + (getHeight() * 160 / 100), getWidth() * 15 / 100, getHeight() * 50 / 100, getWidth() * 90 / 100, getHeight() * 90 / 100);
+        graphics.fillRoundRect(getX() + (width * 30 / 100), getY() + (getHeight() * 160 / 100), getWidth() * 15 / 100, getHeight() * 50 / 100, getWidth() * 90 / 100, getHeight() * 90 / 100);
+        //lightsaber(grey/green)
+        graphics.setColor(Color.cyan);
+        graphics.fillRect(getX() + (width * -25 / 100), getY() + (getHeight() * 0 / 100), getWidth() * 6 / 100, getHeight() * 125 / 100);
+        graphics.setColor(Color.GRAY);
+        graphics.fillRect(getX() + (width * -25 / 100), getY() + (getHeight() * 100 / 100), getWidth() * 6 / 100, getHeight() * 25 / 100);       
+        //hand(black)
+        graphics.setColor(Color.black);
+        graphics.fillOval(getX() + (width * -25 / 100), getY() + (getHeight() * 110 / 100), getWidth() * 10 / 100, getHeight() * 10 / 100); 
+        //ears(white)
+        graphics.setColor(Color.white);
+        graphics.fillOval(getX() + (width * 25 / 100), getY() + (getHeight() * 46 / 100), getWidth() * 7 / 100, getHeight() * 10 / 100);
+        graphics.fillOval(getX() + (width * 60 / 100), getY() + (getHeight() * 46 / 100), getWidth() * 7 / 100, getHeight() * 10 / 100);
+        //mouth(black)
+        graphics.setColor(Color.black);
+        graphics.drawOval(getX() + (width * 43 / 100), getY() + (getHeight() * 81 / 100), getWidth() * 7 / 100, getHeight() * 10 / 100);
 
-
+        
 //
 //          graphics.drawRect(x, y, width, height);
 //          int[] x5 = new int[3];
