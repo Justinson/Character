@@ -85,10 +85,13 @@ public class Panda {
         graphics.fillOval(getX() + (width * 50 / 100), getY() + (getHeight() * 202 / 100), getWidth() * 15 / 100, getHeight() * 10 / 100);
         graphics.setColor(Color.white);
         //left foot(black/white)   
+        graphics.setColor(Color.black);
         graphics.fillOval(getX() + (width * 25 / 100), getY() + (getHeight() * 202 / 100), getWidth() * 15 / 100, getHeight() * 10 / 100);
         graphics.setColor(Color.white);
-      
-//          graphics.drawRect(x, y, width, height);
+          
+        
+        
+//        graphics.drawRect(x, y, width, height);
 //          int[] x5 = new int[3];
 //          x5[0] = x + (width / 2);
 //          x5[1] = x;
